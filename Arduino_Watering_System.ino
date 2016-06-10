@@ -132,9 +132,9 @@ void loop(){
     lcd.print(string_table[1]); 
     // plays the alarm sound
     for(int i=0;i<2;i++){
-      tone(audioPin, NOTE_G3, 200);
+      tone(audioPin, NOTE_D3, 200);
       delay(200);
-      tone(audioPin, NOTE_C3, 200);
+      tone(audioPin, NOTE_E3, 200);
       delay(200);
       noTone(audioPin);
     }
